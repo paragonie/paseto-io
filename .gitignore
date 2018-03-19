@@ -1,0 +1,4 @@
+/.idea/
+/vendor/
+/logs/*
+!/logs/README.md
