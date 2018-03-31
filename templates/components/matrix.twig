@@ -1,0 +1,37 @@
+<table class="table">
+    <thead>
+    <tr>
+        <th rowspan="2">Name</th>
+        <th rowspan="2">Language</th>
+        <th rowspan="2">Author</th>
+        <th colspan="4">Features</th>
+    </tr>
+    <tr>
+        <th>v1.local</th>
+        <th>v1.public</th>
+        <th>v2.local</th>
+        <th>v2.public</th>
+    </tr>
+    </thead>
+    <tbody>
+    {% for impl in table %}
+        <tr>
+            <td>
+                <a href="{{ impl.url }}">{{ impl.name }}</a>
+            </td>
+            <td>{{ impl.language }}</td>
+            <td>
+                {% for a in impl.authors %}
+                    {% if a.homepage %}<a href="{{ a.homepage }}">{% endif %}
+                    {{ a.name }}
+                    {% if a.homepage %}</a>{% endif %}
+                {% endfor %}
+            </td>
+            <td class="text-center">{% if impl.features['v1.local'] %}{{ YES|raw }}{% else %}{{ NO|raw }}{% endif %}</td>
+            <td class="text-center">{% if impl.features['v1.public'] %}{{ YES|raw }}{% else %}{{ NO|raw }}{% endif %}</td>
+            <td class="text-center">{% if impl.features['v2.local'] %}{{ YES|raw }}{% else %}{{ NO|raw }}{% endif %}</td>
+            <td class="text-center">{% if impl.features['v2.public'] %}{{ YES|raw }}{% else %}{{ NO|raw }}{% endif %}</td>
+        </tr>
+    {% endfor %}
+    </tbody>
+</table>

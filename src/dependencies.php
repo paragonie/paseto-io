@@ -1,5 +1,7 @@
 <?php
 // DIC configuration
+/** @var \Slim\App $app */
+/** @var \Slim\Container $container */
 $container = $app->getContainer();
 
 $container['twig'] = function (\Slim\Container $c): Twig_Environment {
@@ -28,6 +30,7 @@ $container['twig'] = function (\Slim\Container $c): Twig_Environment {
 
     return $twigEnv;
 };
+\ParagonIE\PasetoWeb\Locator::setTwig($container['twig']);
 
 // monolog
 $container['logger'] = function ($c) {

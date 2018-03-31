@@ -1,5 +1,19 @@
 {% extends "base.twig" %}
 
+{% set YES = "<i class=\"fa fa-check\" style=\"color: green;\" title=\"YES\"></i>" %}
+{% set NO = "<i class=\"fa fa-close\" style=\"color: red;\" title=\"NO\"></i>" %}
+
 {% block main %}
-<h2>Hello World!</h2>
+    <h1>PASETO</h1>
+
+    <p>
+        Paseto is everything you love about JOSE (JWT, JWE, JWS) without any of the
+        <a href="https://paragonie.com/blog/2017/03/jwt-json-web-tokens-is-bad-standard-that-everyone-should-avoid">many
+        design deficits that plague the JOSE standards</a>.
+    </p>
+
+
+
+    <h2 id="matrix">Implementation Matrix</h2>
+{% include "components/matrix.twig" %}
 {% endblock %}

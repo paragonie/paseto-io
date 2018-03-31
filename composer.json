@@ -15,6 +15,7 @@
         "php": "^7.2",
         "league/commonmark": "^0|^1",
         "paragonie/constant_time_encoding": "^2",
+        "paragonie/ionizer": "^0|^1",
         "paragonie/paseto": "^0|^1",
         "paragonie/sodium_compat": "^1.6",
         "monolog/monolog": "^1.17",

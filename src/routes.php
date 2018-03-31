@@ -1,14 +1,13 @@
 <?php
 
+use ParagonIE\PasetoWeb\Handlers\{
+    HomePage
+};
 use Slim\Http\Request;
 use Slim\Http\Response;
 
 // Routes
 
-$app->get('/[{name}]', function (Request $request, Response $response, array $args) {
-    // Sample log message
-    $this->logger->info("Slim-Skeleton '/' route");
+$app->get('/', HomePage::class);
+$app->get('', HomePage::class);
 
-    // Render index view
-    return $this->twig->display('index.twig');
-});

@@ -1,0 +1,220 @@
+[
+  {
+    "name": "paragonie/paseto",
+    "url": "https://github.com/paragonie/paseto",
+    "authors": [
+      {
+        "name": "Paragon Initiative Enterprises",
+        "homepage": "https://paragonie.com",
+        "email": "security@paragonie.com"
+      }
+    ],
+    "comment": "Reference implementation (PHP).",
+    "language": "PHP",
+    "features": {
+      "v1.local": true,
+      "v1.public": true,
+      "v2.local": true,
+      "v2.public": true
+    },
+    "extra": {
+      "test-vectors-exist": true,
+      "test-vectors-pass": true,
+      "working": true
+    },
+    "audits": []
+  },
+  {
+    "name": "pypaseto",
+    "url": "https://github.com/rlittlefield/pypaseto",
+    "authors": [
+      {
+        "name": "Ryan Littlefield",
+        "homepage": "https://github.com/rlittlefield"
+      }
+    ],
+    "comment": null,
+    "language": "Python",
+    "features": {
+      "v1.local": false,
+      "v1.public": false,
+      "v2.local": true,
+      "v2.public": true
+    },
+    "extra": {
+      "test-vectors-exist": true,
+      "test-vectors-pass": true,
+      "working": true
+    },
+    "audits": []
+  },
+  {
+    "name": "swift-paseto",
+    "url": "https://github.com/aidantwoods/swift-paseto",
+    "authors": [
+      {
+        "name": "Aidan T. Woods",
+        "homepage": "https://www.aidanwoods.com"
+      }
+    ],
+    "comment": null,
+    "language": "Swift",
+    "features": {
+      "v1.local": true,
+      "v1.public": false,
+      "v2.local": true,
+      "v2.public": true
+    },
+    "extra": {
+      "test-vectors-exist": true,
+      "test-vectors-pass": true,
+      "working": true
+    },
+    "audits": []
+  },
+  {
+    "name": "instructure/paseto",
+    "url": "https://github.com/instructure/paseto",
+    "authors": [
+      {
+        "name": "Eric ",
+        "email": "ecoan@instructure.com",
+        "homepage": "https://www.instructure.com"
+      }
+    ],
+    "comment": null,
+    "language": "Rust",
+    "features": {
+      "v1.local": true,
+      "v1.public": true,
+      "v2.local": true,
+      "v2.public": true
+    },
+    "extra": {
+      "test-vectors-exist": null,
+      "test-vectors-pass": null,
+      "working": null
+    },
+    "audits": []
+  },
+  {
+    "name": "dustinsoftware/paseto.net",
+    "url": "https://github.com/dustinsoftware/paseto.net",
+    "authors": [
+      {
+        "name": "Dustin Software, Inc.",
+        "homepage": "https://www.dustinsoftware.com"
+      }
+    ],
+    "comment": null,
+    "language": ".NET Standard",
+    "features": {
+      "v1.local": false,
+      "v1.public": false,
+      "v2.local": true,
+      "v2.public": true
+    },
+    "extra": {
+      "test-vectors-exist": null,
+      "test-vectors-pass": null,
+      "working": null
+    },
+    "audits": []
+  },
+  {
+    "name": "idaviddesmet/paseto-dotnet",
+    "url": "https://github.com/idaviddesmet/paseto-dotnet",
+    "authors": [
+      {
+        "name": "David De Smet",
+        "homepage": "https://github.com/idaviddesmet/paseto-dotnet"
+      }
+    ],
+    "comment": null,
+    "language": ".NET",
+    "features": {
+      "v1.local": false,
+      "v1.public": true,
+      "v2.local": false,
+      "v2.public": true
+    },
+    "extra": {
+      "test-vectors-exist": null,
+      "test-vectors-pass": null,
+      "working": null
+    },
+    "audits": []
+  },
+  {
+    "name": "paseto.js",
+    "url": "https://github.com/sjudson/paseto.js",
+    "authors": [
+      {
+        "name": "Samuel Judson",
+        "homepage": "https://www.sjudson.com/"
+      }
+    ],
+    "comment": "Node.js",
+    "language": "JavaScript",
+    "features": {
+      "v1.local": true,
+      "v1.public": false,
+      "v2.local": true,
+      "v2.public": false
+    },
+    "extra": {
+      "test-vectors-exist": true,
+      "test-vectors-pass": true,
+      "working": true
+    },
+    "audits": []
+  },
+  {
+    "name": "nbaars/paseto4j",
+    "url": "hhttps://github.com/nbaars/paseto4j",
+    "authors": [
+      {
+        "name": "Nanne Baars",
+        "homepage": "https://github.com/nbaars"
+      }
+    ],
+    "comment": null,
+    "language": "Java",
+    "features": {
+      "v1.local": false,
+      "v1.public": false,
+      "v2.local": false,
+      "v2.public": true
+    },
+    "extra": {
+      "test-vectors-exist": true,
+      "test-vectors-pass": null,
+      "working": null
+    },
+    "audits": []
+  },
+  {
+    "name": "o1egl/paseto",
+    "url": "https://github.com/o1egl/paseto",
+    "authors": [
+      {
+        "name": "Oleg Lobanov",
+        "homepage": "https://github.com/o1egl"
+      }
+    ],
+    "comment": null,
+    "language": "Go",
+    "features": {
+      "v1.local": true,
+      "v1.public": true,
+      "v2.local": true,
+      "v2.public": true
+    },
+    "extra": {
+      "test-vectors-exist": true,
+      "test-vectors-pass": true,
+      "working": null
+    },
+    "audits": []
+  }
+]
