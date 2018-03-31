@@ -29,6 +29,13 @@ class HomePage
     ): Response {
         $vars = [];
         $vars['table'] = \json_decode(\file_get_contents(PASETO_IO_ROOT . '/data/implementations.json'), true);
+
+        // Sort alphabetically
+        \uasort($vars['table'], function (array $a, array $b): int {
+            return \preg_replace('/[^0-9A-Za-z]/', '', $a['language'])
+                   <=>
+               \preg_replace('/[^0-9A-Za-z]/', '', $b['language']);
+        });
         Locator::getTwig()->display('index.twig', $vars);
         return $response;
     }
