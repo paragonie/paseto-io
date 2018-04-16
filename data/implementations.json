@@ -240,5 +240,33 @@
       "working": null
     },
     "audits": []
+  },
+  {
+    "name": "mguymon/paseto.rb",
+    "url": "https://github.com/mguymon/paseto.rb",
+    "authors": [
+      {
+        "name": "Michael Guymon",
+        "homepage": "https://github.com/mguymon"
+      },
+      {
+        "name": "Frank Murphy",
+        "homepage": "https://github.com/AnIrishDuck"
+      }
+    ],
+    "comment": null,
+    "language": "Ruby",
+    "features": {
+      "v1.local": false,
+      "v1.public": false,
+      "v2.local": true,
+      "v2.public": true
+    },
+    "extra": {
+      "test-vectors-exist": true,
+      "test-vectors-pass": true,
+      "working": null
+    },
+    "audits": []
   }
 ]
