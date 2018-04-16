@@ -160,7 +160,7 @@
       "v1.local": true,
       "v1.public": false,
       "v2.local": true,
-      "v2.public": false
+      "v2.public": true
     },
     "extra": {
       "test-vectors-exist": true,
