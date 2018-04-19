@@ -12,6 +12,13 @@
 </head>
 <body>
 {% block body %}
+    {% block navbar %}
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        {% block navigation %}
+            {% include "components/navbar.twig" %}
+        {% endblock %}
+    </nav>
+    {% endblock %}
     {% block outer_container %}
     <div class="container">
         {% block main %}

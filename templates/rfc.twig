@@ -1,0 +1,13 @@
+{% extends "base.twig" %}
+
+{% block main %}
+
+    <h1>{{ draft.header|default('PASETO ' ~ draft.slug) }}</h1>
+    <p>
+        Submitted on: {{ draft.date }}
+    </p>
+    <hr />
+    <pre id="rfc-body">
+        {{ draft.contents }}
+    </pre>
+{% endblock %}

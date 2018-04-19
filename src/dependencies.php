@@ -28,6 +28,10 @@ $container['twig'] = function (\Slim\Container $c): Twig_Environment {
         }
     }
 
+    foreach ($settings['globals'] as $key => $value) {
+        $twigEnv->addGlobal($key, $value);
+    }
+
     return $twigEnv;
 };
 \ParagonIE\PasetoWeb\Locator::setTwig($container['twig']);

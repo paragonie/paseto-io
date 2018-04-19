@@ -8,6 +8,9 @@ return [
             'loader' => new Twig_Loader_Filesystem([
                 PASETO_IO_ROOT . '/templates/'
             ]),
+            'globals' => [
+                'rfcdrafts' => include __DIR__ . '/rfcdrafts.php'
+            ],
             'filters' => [],
             'functions' => []
         ],
