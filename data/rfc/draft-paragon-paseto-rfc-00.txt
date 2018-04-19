@@ -10,7 +10,7 @@ Expires: October 21, 2018               Rensselaer Polytechnic Institute
 
 
                PASETO: Platform-Agnostic SEcurity TOkens
-                     draft-paragonie-paseto-rfc-00
+                      draft-paragon-paseto-rfc-00
 
 Abstract
 
