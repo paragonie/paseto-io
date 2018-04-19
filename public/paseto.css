@@ -1,0 +1,12 @@
+#rfc-body {
+    background-color: #f4f4f4;
+    color: #222;
+    -webkit-border-radius: 0.5ex;
+    -moz-border-radius: 0.5ex;
+    border-radius: 0.5ex;
+    box-shadow: inset #ddd 0 1ex 1em, #666 0 1ex 1em;
+    font-size: 100%;
+    margin: 0 auto 1.5em auto;
+    padding: 1ex;
+    width: 90ex;
+}
