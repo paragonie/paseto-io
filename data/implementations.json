@@ -268,5 +268,29 @@
       "working": null
     },
     "audits": []
+  },
+  {
+    "name": "GrappigPanda/Paseto",
+    "url": "https://github.com/GrappigPanda/Paseto",
+    "authors": [
+      {
+        "name": "Ian Clark",
+        "homepage": "https://github.com/GrappigPanda"
+      }
+    ],
+    "comment": null,
+    "language": "Elixir",
+    "features": {
+      "v1.local": true,
+      "v1.public": true,
+      "v2.local": true,
+      "v2.public": true
+    },
+    "extra": {
+      "test-vectors-exist": true,
+      "test-vectors-pass": true,
+      "working": null
+    },
+    "audits": []
   }
 ]
