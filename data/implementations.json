@@ -292,5 +292,29 @@
       "working": null
     },
     "audits": []
+  },
+  {
+    "name": "peter-evans/paseto-lua",
+    "url": "https://github.com/peter-evans/paseto-lua",
+    "authors": [
+      {
+        "name": "Peter Evans",
+        "homepage": "https://github.com/peter-evans"
+      }
+    ],
+    "comment": null,
+    "language": "Lua",
+    "features": {
+      "v1.local": false,
+      "v1.public": false,
+      "v2.local": true,
+      "v2.public": true
+    },
+    "extra": {
+      "test-vectors-exist": true,
+      "test-vectors-pass": true,
+      "working": null
+    },
+    "audits": []
   }
 ]
