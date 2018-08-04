@@ -183,7 +183,7 @@
     "features": {
       "v1.local": false,
       "v1.public": false,
-      "v2.local": false,
+      "v2.local": true,
       "v2.public": true
     },
     "extra": {
