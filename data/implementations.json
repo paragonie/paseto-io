@@ -194,6 +194,30 @@
     "audits": []
   },
   {
+    "name": "atholbro/paseto",
+    "url": "https://github.com/atholbro/paseto",
+    "authors": [
+      {
+        "name": "Andrew Holbrook",
+        "homepage": "https://github.com/atholbro"
+      }
+    ],
+    "comment": null,
+    "language": "Java",
+    "features": {
+      "v1.local": true,
+      "v1.public": true,
+      "v2.local": true,
+      "v2.public": true
+    },
+    "extra": {
+      "test-vectors-exist": true,
+      "test-vectors-pass": true,
+      "working": true
+    },
+    "audits": []
+  },
+  {
     "name": "o1egl/paseto",
     "url": "https://github.com/o1egl/paseto",
     "authors": [
