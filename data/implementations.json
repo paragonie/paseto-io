@@ -181,8 +181,8 @@
     "comment": null,
     "language": "Java",
     "features": {
-      "v1.local": false,
-      "v1.public": false,
+      "v1.local": true,
+      "v1.public": true,
       "v2.local": true,
       "v2.public": true
     },
