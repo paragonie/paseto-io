@@ -146,6 +146,30 @@
     "audits": []
   },
   {
+    "name": "panva/paseto",
+    "url": "https://github.com/panva/paseto",
+    "authors": [
+      {
+        "name": "Filip Skokan",
+        "homepage": "https://github.com/panva"
+      }
+    ],
+    "comment": null,
+    "language": "Node.js",
+    "features": {
+      "v1.local": true,
+      "v1.public": true,
+      "v2.local": true,
+      "v2.public": true
+    },
+    "extra": {
+      "test-vectors-exist": true,
+      "test-vectors-pass": true,
+      "working": true
+    },
+    "audits": []
+  },
+  {
     "name": "paseto.js",
     "url": "https://github.com/sjudson/paseto.js",
     "authors": [
