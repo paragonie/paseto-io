@@ -194,6 +194,30 @@
     "audits": []
   },
   {
+    "name": "JPaseto",
+    "url": "https://github.com/paseto-toolkit/jpaseto",
+    "authors": [
+      {
+        "name": "Paseto Toolkit",
+        "homepage": "https://github.com/paseto-toolkit"
+      }
+    ],
+    "comment": null,
+    "language": "Java",
+    "features": {
+      "v1.local": true,
+      "v1.public": true,
+      "v2.local": true,
+      "v2.public": true
+    },
+    "extra": {
+      "test-vectors-exist": true,
+      "test-vectors-pass": true,
+      "working": true
+    },
+    "audits": []
+  },
+  {
     "name": "nbaars/paseto4j",
     "url": "https://github.com/nbaars/paseto4j",
     "authors": [
