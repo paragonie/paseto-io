@@ -146,6 +146,30 @@
     "audits": []
   },
   {
+    "name": "scottbrady91/IdentityModel",
+    "url": "https://github.com/scottbrady91/IdentityModel",
+    "authors": [
+      {
+        "name": "Scott Brady",
+        "homepage": "https://www.scottbrady91.com/"
+      }
+    ],
+    "comment": null,
+    "language": ".NET",
+    "features": {
+      "v1.local": false,
+      "v1.public": true,
+      "v2.local": false,
+      "v2.public": true
+    },
+    "extra": {
+      "test-vectors-exist": true,
+      "test-vectors-pass": true,
+      "working": true
+    },
+    "audits": []
+  },
+  {
     "name": "panva/paseto",
     "url": "https://github.com/panva/paseto",
     "authors": [
