@@ -290,6 +290,30 @@
     "audits": []
   },
   {
+    "name": "lib/paseto",
+    "url": "https://godoc.org/github.com/shuLhan/share/lib/paseto",
+    "authors": [
+      {
+        "name": "Shulhan",
+        "homepage": "https://github.com/shuLhan"
+      }
+    ],
+    "comment": "A simple, ready to use, PASETO v2",
+    "language": "Go",
+    "features": {
+      "v1.local": false,
+      "v1.public": false,
+      "v2.local": true,
+      "v2.public": true
+    },
+    "extra": {
+      "test-vectors-exist": true,
+      "test-vectors-pass": true,
+      "working": null
+    },
+    "audits": []
+  },
+  {
     "name": "authenticvision/libpaseto",
     "url": "https://github.com/authenticvision/libpaseto",
     "authors": [
