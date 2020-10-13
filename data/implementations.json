@@ -98,6 +98,31 @@
     "audits": []
   },
   {
+    "name": "brycx/pasetors",
+    "url": "https://github.com/brycx/pasetors",
+    "authors": [
+      {
+        "name": "Johannes",
+        "email": "brycx@protonmail.com",
+        "homepage": "https://github.com/brycx/"
+      }
+    ],
+    "comment": null,
+    "language": "Rust",
+    "features": {
+      "v1.local": false,
+      "v1.public": false,
+      "v2.local": true,
+      "v2.public": true
+    },
+    "extra": {
+      "test-vectors-exist": true,
+      "test-vectors-pass": true,
+      "working": true
+    },
+    "audits": []
+  },
+  {
     "name": "dustinsoftware/paseto.net",
     "url": "https://github.com/dustinsoftware/paseto.net",
     "authors": [
