@@ -314,6 +314,30 @@
     "audits": []
   },
   {
+    "name": "vk-rv/pvx",
+    "url": "https://github.com/vk-rv/pvx",
+    "authors": [
+      {
+        "name": "Oleg Vakarev",
+        "homepage": "https://github.com/vk-rv"
+      }
+    ],
+    "comment": null,
+    "language": "Go",
+    "features": {
+      "v1.local": false,
+      "v1.public": false,
+      "v2.local": true,
+      "v2.public": true
+    },
+    "extra": {
+      "test-vectors-exist": null,
+      "test-vectors-pass": null,
+      "working": null
+    },
+    "audits": []
+  },
+  {
     "name": "lib/paseto",
     "url": "https://godoc.org/github.com/shuLhan/share/lib/paseto",
     "authors": [
