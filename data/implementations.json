@@ -208,7 +208,7 @@
     "features": {
       "v1.local": true,
       "v1.public": true,
-      "v2.local": true,
+      "v2.local": false,
       "v2.public": true
     },
     "extra": {
