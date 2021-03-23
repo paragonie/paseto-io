@@ -10,3 +10,31 @@
     padding: 1ex;
     width: 84ex;
 }
+.enterprise {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.enterprise img {
+    height: 2.5rem;
+    max-width: 20rem;
+}
+.enterprise .company {
+    text-align: right;
+    /* Coerce to minimum width: */
+    padding-left: 1rem;
+    min-width: 1px;
+    width: 0;
+}
+.enterprise .offering {
+    padding-left: 1rem;
+}
+.enterprise table {
+    border: 1px solid rgba(0, 204, 255, 0.3);
+    width: 100%;
+}
+.enterprise td {
+    padding: 0.5rem;
+}
+.enterprise tr:nth-child(odd) {
+    background-color: rgba(0, 204, 255, 0.05);
+}
