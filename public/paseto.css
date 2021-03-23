@@ -16,6 +16,7 @@
 }
 .enterprise img {
     height: 2.5rem;
+    min-width: 2.5rem;
     max-width: 20rem;
 }
 .enterprise .company {
