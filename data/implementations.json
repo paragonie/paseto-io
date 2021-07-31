@@ -49,6 +49,30 @@
     "audits": []
   },
   {
+    "name": "python-paseto",
+    "url": "https://github.com/purificant/python-paseto",
+    "authors": [
+      {
+        "name": "python-paseto",
+        "homepage": "https://github.com/purificant/python-paseto"
+      }
+    ],
+    "comment": "A simple, ready to use, PASETO in Python",
+    "language": "Python",
+    "features": {
+      "v1.local": false,
+      "v1.public": false,
+      "v2.local": true,
+      "v2.public": true
+    },
+    "extra": {
+      "test-vectors-exist": true,
+      "test-vectors-pass": true,
+      "working": true
+    },
+    "audits": []
+  },
+  {
     "name": "swift-paseto",
     "url": "https://github.com/aidantwoods/swift-paseto",
     "authors": [
