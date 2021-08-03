@@ -13,13 +13,13 @@
     ],
     "require": {
         "php": "^7.2",
-        "league/commonmark": "^0|^1",
+        "league/commonmark": "^1",
         "paragonie/constant_time_encoding": "^2",
-        "paragonie/ionizer": "^0|^1",
-        "paragonie/paseto": "^0|^1",
-        "paragonie/sodium_compat": "^1.6",
-        "monolog/monolog": "^1.17",
-        "slim/slim": "^3.1",
+        "paragonie/ionizer": "^1",
+        "paragonie/paseto": "^2",
+        "paragonie/sodium_compat": "^1.16",
+        "monolog/monolog": "^1.26",
+        "slim/slim": "^3.12",
         "twig/twig": "^2"
     },
     "require-dev": {
@@ -42,5 +42,4 @@
         "start": "php -S localhost:8080 -t public public/index.php",
         "test": "phpunit"
     }
-
 }
