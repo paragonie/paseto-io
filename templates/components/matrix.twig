@@ -12,6 +12,10 @@
             <th>v1.public</th>
             <th>v2.local</th>
             <th>v2.public</th>
+            <th>v3.local</th>
+            <th>v3.public</th>
+            <th>v4.local</th>
+            <th>v4.public</th>
         </tr>
         </thead>
         <tbody>
@@ -32,6 +36,10 @@
                 <td class="text-center">{% if impl.features['v1.public'] %}{{ YES|raw }}{% else %}{{ NO|raw }}{% endif %}</td>
                 <td class="text-center">{% if impl.features['v2.local'] %}{{ YES|raw }}{% else %}{{ NO|raw }}{% endif %}</td>
                 <td class="text-center">{% if impl.features['v2.public'] %}{{ YES|raw }}{% else %}{{ NO|raw }}{% endif %}</td>
+                <td class="text-center">{% if impl.features['v3.local'] %}{{ YES|raw }}{% else %}{{ NO|raw }}{% endif %}</td>
+                <td class="text-center">{% if impl.features['v3.public'] %}{{ YES|raw }}{% else %}{{ NO|raw }}{% endif %}</td>
+                <td class="text-center">{% if impl.features['v4.local'] %}{{ YES|raw }}{% else %}{{ NO|raw }}{% endif %}</td>
+                <td class="text-center">{% if impl.features['v4.public'] %}{{ YES|raw }}{% else %}{{ NO|raw }}{% endif %}</td>
             </tr>
         {% endfor %}
         </tbody>
