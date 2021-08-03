@@ -15,7 +15,11 @@
       "v1.local": true,
       "v1.public": true,
       "v2.local": true,
-      "v2.public": true
+      "v2.public": true,
+      "v3.local": true,
+      "v3.public": true,
+      "v4.local": true,
+      "v4.public": true
     },
     "extra": {
       "test-vectors-exist": true,
@@ -39,7 +43,11 @@
       "v1.local": false,
       "v1.public": false,
       "v2.local": true,
-      "v2.public": true
+      "v2.public": true,
+      "v3.local": false,
+      "v3.public": false,
+      "v4.local": false,
+      "v4.public": false
     },
     "extra": {
       "test-vectors-exist": true,
@@ -63,7 +71,11 @@
       "v1.local": false,
       "v1.public": false,
       "v2.local": true,
-      "v2.public": true
+      "v2.public": true,
+      "v3.local": false,
+      "v3.public": false,
+      "v4.local": false,
+      "v4.public": false
     },
     "extra": {
       "test-vectors-exist": true,
@@ -87,7 +99,11 @@
       "v1.local": true,
       "v1.public": false,
       "v2.local": true,
-      "v2.public": true
+      "v2.public": true,
+      "v3.local": false,
+      "v3.public": false,
+      "v4.local": false,
+      "v4.public": false
     },
     "extra": {
       "test-vectors-exist": true,
@@ -112,7 +128,11 @@
       "v1.local": true,
       "v1.public": true,
       "v2.local": true,
-      "v2.public": true
+      "v2.public": true,
+      "v3.local": false,
+      "v3.public": false,
+      "v4.local": false,
+      "v4.public": false
     },
     "extra": {
       "test-vectors-exist": null,
@@ -137,7 +157,11 @@
       "v1.local": false,
       "v1.public": false,
       "v2.local": true,
-      "v2.public": true
+      "v2.public": true,
+      "v3.local": false,
+      "v3.public": false,
+      "v4.local": false,
+      "v4.public": false
     },
     "extra": {
       "test-vectors-exist": true,
@@ -161,7 +185,11 @@
       "v1.local": false,
       "v1.public": false,
       "v2.local": true,
-      "v2.public": true
+      "v2.public": true,
+      "v3.local": false,
+      "v3.public": false,
+      "v4.local": false,
+      "v4.public": false
     },
     "extra": {
       "test-vectors-exist": null,
@@ -185,7 +213,11 @@
       "v1.local": false,
       "v1.public": true,
       "v2.local": true,
-      "v2.public": true
+      "v2.public": true,
+      "v3.local": false,
+      "v3.public": false,
+      "v4.local": false,
+      "v4.public": false
     },
     "extra": {
       "test-vectors-exist": null,
@@ -209,7 +241,11 @@
       "v1.local": false,
       "v1.public": true,
       "v2.local": false,
-      "v2.public": true
+      "v2.public": true,
+      "v3.local": false,
+      "v3.public": false,
+      "v4.local": false,
+      "v4.public": false
     },
     "extra": {
       "test-vectors-exist": true,
@@ -233,7 +269,11 @@
       "v1.local": true,
       "v1.public": true,
       "v2.local": false,
-      "v2.public": true
+      "v2.public": true,
+      "v3.local": true,
+      "v3.public": true,
+      "v4.local": false,
+      "v4.public": true
     },
     "extra": {
       "test-vectors-exist": true,
@@ -257,7 +297,11 @@
       "v1.local": true,
       "v1.public": true,
       "v2.local": true,
-      "v2.public": true
+      "v2.public": true,
+      "v3.local": false,
+      "v3.public": false,
+      "v4.local": false,
+      "v4.public": false
     },
     "extra": {
       "test-vectors-exist": true,
@@ -281,7 +325,11 @@
       "v1.local": true,
       "v1.public": true,
       "v2.local": true,
-      "v2.public": true
+      "v2.public": true,
+      "v3.local": false,
+      "v3.public": false,
+      "v4.local": false,
+      "v4.public": false
     },
     "extra": {
       "test-vectors-exist": true,
@@ -305,7 +353,11 @@
       "v1.local": true,
       "v1.public": true,
       "v2.local": true,
-      "v2.public": true
+      "v2.public": true,
+      "v3.local": false,
+      "v3.public": false,
+      "v4.local": false,
+      "v4.public": false
     },
     "extra": {
       "test-vectors-exist": true,
@@ -329,7 +381,11 @@
       "v1.local": true,
       "v1.public": true,
       "v2.local": true,
-      "v2.public": true
+      "v2.public": true,
+      "v3.local": false,
+      "v3.public": false,
+      "v4.local": false,
+      "v4.public": false
     },
     "extra": {
       "test-vectors-exist": true,
@@ -353,7 +409,11 @@
       "v1.local": true,
       "v1.public": true,
       "v2.local": true,
-      "v2.public": true
+      "v2.public": true,
+      "v3.local": false,
+      "v3.public": false,
+      "v4.local": false,
+      "v4.public": false
     },
     "extra": {
       "test-vectors-exist": true,
@@ -377,7 +437,11 @@
       "v1.local": false,
       "v1.public": false,
       "v2.local": true,
-      "v2.public": true
+      "v2.public": true,
+      "v3.local": false,
+      "v3.public": false,
+      "v4.local": false,
+      "v4.public": false
     },
     "extra": {
       "test-vectors-exist": null,
@@ -401,7 +465,11 @@
       "v1.local": false,
       "v1.public": false,
       "v2.local": true,
-      "v2.public": true
+      "v2.public": true,
+      "v3.local": false,
+      "v3.public": false,
+      "v4.local": false,
+      "v4.public": false
     },
     "extra": {
       "test-vectors-exist": true,
@@ -425,7 +493,11 @@
       "v1.local": false,
       "v1.public": false,
       "v2.local": true,
-      "v2.public": true
+      "v2.public": true,
+      "v3.local": false,
+      "v3.public": false,
+      "v4.local": false,
+      "v4.public": false
     },
     "extra": {
       "test-vectors-exist": true,
@@ -453,7 +525,11 @@
       "v1.local": false,
       "v1.public": false,
       "v2.local": true,
-      "v2.public": true
+      "v2.public": true,
+      "v3.local": false,
+      "v3.public": false,
+      "v4.local": false,
+      "v4.public": false
     },
     "extra": {
       "test-vectors-exist": true,
@@ -477,7 +553,11 @@
       "v1.local": true,
       "v1.public": true,
       "v2.local": true,
-      "v2.public": true
+      "v2.public": true,
+      "v3.local": false,
+      "v3.public": false,
+      "v4.local": false,
+      "v4.public": false
     },
     "extra": {
       "test-vectors-exist": true,
@@ -501,7 +581,11 @@
       "v1.local": false,
       "v1.public": false,
       "v2.local": true,
-      "v2.public": true
+      "v2.public": true,
+      "v3.local": false,
+      "v3.public": false,
+      "v4.local": false,
+      "v4.public": false
     },
     "extra": {
       "test-vectors-exist": true,
