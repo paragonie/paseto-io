@@ -15,6 +15,7 @@
             <a class="nav-link" href="/demo">Demo {% if active == "demo" %} <span class="sr-only">(current)</span>{% endif %}</a>
         </li>
         #}
+        {#}
         <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="rfcDrafts" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 RFC
@@ -26,6 +27,10 @@
                     <a class="dropdown-item" href="/rfc/{{ draft.slug }}">{{ draft.slug }}</a>
                 {% endfor %}
             </div>
+        </li>
+        #}
+        <li class="nav-item">
+            <a href="https://github.com/paseto-standard/paseto-rfc">RFC</a>
         </li>
     </ul>
 </div>
