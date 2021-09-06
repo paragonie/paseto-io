@@ -593,5 +593,34 @@
       "working": null
     },
     "audits": []
+  },
+  {
+    "name": "PySETO",
+    "url": "https://github.com/dajiaji/pyseto",
+    "authors": [
+      {
+        "name": "AJITOMI Daisuke",
+        "email": "ajitomi@gmail.com",
+        "homepage": "https://github.com/dajiaji"
+      }
+    ],
+    "comment": "A Python implementation of PASETO",
+    "language": "Python",
+    "features": {
+      "v1.local": true,
+      "v1.public": true,
+      "v2.local": true,
+      "v2.public": true,
+      "v3.local": true,
+      "v3.public": true,
+      "v4.local": true,
+      "v4.public": true
+    },
+    "extra": {
+      "test-vectors-exist": true,
+      "test-vectors-pass": true,
+      "working": true
+    },
+    "audits": []
   }
 ]
