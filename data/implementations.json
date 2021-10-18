@@ -275,7 +275,8 @@
       "v3.local": true,
       "v3.public": true,
       "v4.local": false,
-      "v4.public": true
+      "v4.public": true,
+      "paserk": true
     },
     "extra": {
       "test-vectors-exist": true,
