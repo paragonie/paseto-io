@@ -19,7 +19,8 @@
       "v3.local": true,
       "v3.public": true,
       "v4.local": true,
-      "v4.public": true
+      "v4.public": true,
+      "paserk": "via <a href='https://github.com/paragonie/paserk-php'>paserk-php</a>"
     },
     "extra": {
       "test-vectors-exist": true,

@@ -34,7 +34,17 @@
                 <td class="text-center">{% if impl.features['v3.public'] %}{{ YES|raw }}{% else %}{{ NO|raw }}{% endif %}</td>
                 <td class="text-center">{% if impl.features['v4.local'] %}{{ YES|raw }}{% else %}{{ NO|raw }}{% endif %}</td>
                 <td class="text-center">{% if impl.features['v4.public'] %}{{ YES|raw }}{% else %}{{ NO|raw }}{% endif %}</td>
-                <td class="text-center">{% if impl.features['paserk'] %}{{ YES|raw }}{% else %}{{ NO|raw }}{% endif %}</td>
+                <td class="text-center">
+                    {% if impl.features['paserk'] %}
+                        {% if impl.features['paserk'] is same as ( true )  %}
+                            {{ YES|raw }}
+                        {% else %}
+                            {{ impl.features['paserk']|raw }}
+                        {% endif %}
+                    {% else %}
+                        {{ NO|raw }}
+                    {% endif %}
+                </td>
             </tr>
         {% endfor %}
         </tbody>
