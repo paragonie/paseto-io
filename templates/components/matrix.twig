@@ -6,13 +6,14 @@
             <th rowspan="2">Name</th>
             <th rowspan="2">Language</th>
             <th rowspan="2">Author</th>
-            <th colspan="4">Features</th>
+            <th colspan="5">Features</th>
         </tr>
         <tr>
-            <th title="v3.local">v3.l</th>
-            <th title="v3.public">v3.p</th>
-            <th title="v4.local">v4.l</th>
-            <th title="v4.public">v4.p</th>
+            <th class="text-center" title="v3.local">v3.l</th>
+            <th class="text-center" title="v3.public">v3.p</th>
+            <th class="text-center" title="v4.local">v4.l</th>
+            <th class="text-center" title="v4.public">v4.p</th>
+            <th class="text-center">convert keys<br>to/from <a href="https://github.com/paseto-standard/paserk">PASERK</a></th>
         </tr>
         </thead>
         <tbody>
@@ -33,6 +34,7 @@
                 <td class="text-center">{% if impl.features['v3.public'] %}{{ YES|raw }}{% else %}{{ NO|raw }}{% endif %}</td>
                 <td class="text-center">{% if impl.features['v4.local'] %}{{ YES|raw }}{% else %}{{ NO|raw }}{% endif %}</td>
                 <td class="text-center">{% if impl.features['v4.public'] %}{{ YES|raw }}{% else %}{{ NO|raw }}{% endif %}</td>
+                <td class="text-center">{% if impl.features['paserk'] %}{{ YES|raw }}{% else %}{{ NO|raw }}{% endif %}</td>
             </tr>
         {% endfor %}
         </tbody>
