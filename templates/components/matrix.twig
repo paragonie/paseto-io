@@ -1,3 +1,4 @@
+<h3>v3/v4 support</h3>
 <div class="table-responsive">
     <table class="table">
         <thead>
@@ -5,21 +6,70 @@
             <th rowspan="2">Name</th>
             <th rowspan="2">Language</th>
             <th rowspan="2">Author</th>
-            <th colspan="8">Features</th>
+            <th colspan="5">Features</th>
+        </tr>
+        <tr>
+            <th class="text-center" title="v3.local">v3.l</th>
+            <th class="text-center" title="v3.public">v3.p</th>
+            <th class="text-center" title="v4.local">v4.l</th>
+            <th class="text-center" title="v4.public">v4.p</th>
+            <th class="text-center">convert keys<br>to/from <a href="https://github.com/paseto-standard/paserk">PASERK</a></th>
+        </tr>
+        </thead>
+        <tbody>
+        {% for impl in modernImpls %}
+            <tr>
+                <td>
+                    <a href="{{ impl.url }}">{{ impl.name }}</a>
+                </td>
+                <td>{{ impl.language }}</td>
+                <td>
+                    {% for a in impl.authors %}
+                        {% if a.homepage %}<a href="{{ a.homepage }}">{% endif %}
+                        {{ a.name }}
+                        {% if a.homepage %}</a>{% endif %}
+                    {% endfor %}
+                </td>
+                <td class="text-center">{% if impl.features['v3.local'] %}{{ YES|raw }}{% else %}{{ NO|raw }}{% endif %}</td>
+                <td class="text-center">{% if impl.features['v3.public'] %}{{ YES|raw }}{% else %}{{ NO|raw }}{% endif %}</td>
+                <td class="text-center">{% if impl.features['v4.local'] %}{{ YES|raw }}{% else %}{{ NO|raw }}{% endif %}</td>
+                <td class="text-center">{% if impl.features['v4.public'] %}{{ YES|raw }}{% else %}{{ NO|raw }}{% endif %}</td>
+                <td class="text-center">
+                    {% if impl.features['paserk'] %}
+                        {% if impl.features['paserk'] is same as ( true )  %}
+                            {{ YES|raw }}
+                        {% else %}
+                            {{ impl.features['paserk']|raw }}
+                        {% endif %}
+                    {% else %}
+                        {{ NO|raw }}
+                    {% endif %}
+                </td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+</div>
+
+<h3>v1/v2 support</h3>
+<div class="table-responsive">
+    <table class="table">
+        <thead>
+        <tr>
+            <th rowspan="2">Name</th>
+            <th rowspan="2">Language</th>
+            <th rowspan="2">Author</th>
+            <th colspan="4">Features</th>
         </tr>
         <tr>
             <th title="v1.local">v1.l</th>
             <th title="v1.public">v1.p</th>
             <th title="v2.local">v2.l</th>
             <th title="v2.public">v2.p</th>
-            <th title="v3.local">v3.l</th>
-            <th title="v3.public">v3.p</th>
-            <th title="v4.local">v4.l</th>
-            <th title="v4.public">v4.p</th>
         </tr>
         </thead>
         <tbody>
-        {% for impl in table %}
+        {% for impl in legacyImpls %}
             <tr>
                 <td>
                     <a href="{{ impl.url }}">{{ impl.name }}</a>
@@ -36,10 +86,6 @@
                 <td class="text-center">{% if impl.features['v1.public'] %}{{ YES|raw }}{% else %}{{ NO|raw }}{% endif %}</td>
                 <td class="text-center">{% if impl.features['v2.local'] %}{{ YES|raw }}{% else %}{{ NO|raw }}{% endif %}</td>
                 <td class="text-center">{% if impl.features['v2.public'] %}{{ YES|raw }}{% else %}{{ NO|raw }}{% endif %}</td>
-                <td class="text-center">{% if impl.features['v3.local'] %}{{ YES|raw }}{% else %}{{ NO|raw }}{% endif %}</td>
-                <td class="text-center">{% if impl.features['v3.public'] %}{{ YES|raw }}{% else %}{{ NO|raw }}{% endif %}</td>
-                <td class="text-center">{% if impl.features['v4.local'] %}{{ YES|raw }}{% else %}{{ NO|raw }}{% endif %}</td>
-                <td class="text-center">{% if impl.features['v4.public'] %}{{ YES|raw }}{% else %}{{ NO|raw }}{% endif %}</td>
             </tr>
         {% endfor %}
         </tbody>
