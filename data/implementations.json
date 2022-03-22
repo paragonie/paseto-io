@@ -657,5 +657,33 @@
       "working": true
     },
     "audits": []
+  },
+  {
+    "name": "go-paseto",
+    "url": "https://github.com/aidantwoods/go-paseto",
+    "authors": [
+      {
+        "name": "Aidan T. Woods",
+        "homepage": "https://www.aidanwoods.com"
+      }
+    ],
+    "comment": "A Go implementation of PASETO.",
+    "language": "Go",
+    "features": {
+      "v1.local": false,
+      "v1.public": false,
+      "v2.local": true,
+      "v2.public": true,
+      "v3.local": true,
+      "v3.public": false,
+      "v4.local": true,
+      "v4.public": true
+    },
+    "extra": {
+      "test-vectors-exist": true,
+      "test-vectors-pass": true,
+      "working": true
+    },
+    "audits": []
   }
 ]
