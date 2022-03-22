@@ -95,17 +95,17 @@
         "homepage": "https://www.aidanwoods.com"
       }
     ],
-    "comment": null,
+    "comment": "A Swift implementation of PASETO.",
     "language": "Swift",
     "features": {
       "v1.local": true,
       "v1.public": false,
       "v2.local": true,
       "v2.public": true,
-      "v3.local": false,
+      "v3.local": true,
       "v3.public": false,
-      "v4.local": false,
-      "v4.public": false
+      "v4.local": true,
+      "v4.public": true
     },
     "extra": {
       "test-vectors-exist": true,
