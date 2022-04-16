@@ -232,30 +232,31 @@
     "audits": []
   },
   {
-    "name": "idaviddesmet/paseto-dotnet",
-    "url": "https://github.com/idaviddesmet/paseto-dotnet",
+    "name": "daviddesmet/paseto-dotnet",
+    "url": "https://github.com/daviddesmet/paseto-dotnet",
     "authors": [
       {
         "name": "David De Smet",
-        "homepage": "https://github.com/idaviddesmet/paseto-dotnet"
+        "homepage": "https://www.desmet.dev"
       }
     ],
-    "comment": null,
+    "comment": "Paseto.NET, a Paseto (Platform-Agnostic Security Tokens) implementation for .NET",
     "language": ".NET",
     "features": {
-      "v1.local": false,
+      "v1.local": true,
       "v1.public": true,
       "v2.local": true,
       "v2.public": true,
-      "v3.local": false,
-      "v3.public": false,
-      "v4.local": false,
-      "v4.public": false
+      "v3.local": true,
+      "v3.public": true,
+      "v4.local": true,
+      "v4.public": true,
+      "paserk": true
     },
     "extra": {
-      "test-vectors-exist": null,
-      "test-vectors-pass": null,
-      "working": null
+      "test-vectors-exist": true,
+      "test-vectors-pass": true,
+      "working": true
     },
     "audits": []
   },
