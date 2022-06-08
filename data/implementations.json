@@ -161,7 +161,7 @@
       "v2.local": true,
       "v2.public": true,
       "v3.local": false,
-      "v3.public": false,
+      "v3.public": true,
       "v4.local": true,
       "v4.public": true,
       "paserk": true
