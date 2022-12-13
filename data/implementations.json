@@ -686,5 +686,34 @@
       "working": true
     },
     "audits": []
+  },
+  {
+    "name": "bannable/paseto",
+    "url": "https://github.com/bannable/paseto",
+    "authors": [
+      {
+        "name": "Joe Truba",
+        "homepage": "https://github.com/bannable/paseto"
+      }
+    ],
+    "comment": null,
+    "language": "Ruby",
+    "features": {
+      "v1.local": false,
+      "v1.public": false,
+      "v2.local": false,
+      "v2.public": false,
+      "v3.local": true,
+      "v3.public": true,
+      "v4.local": true,
+      "v4.public": true,
+      "paserk": true
+    },
+    "extra": {
+      "test-vectors-exist": true,
+      "test-vectors-pass": true,
+      "working": true
+    },
+    "audits": []
   }
 ]
