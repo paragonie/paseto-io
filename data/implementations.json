@@ -715,5 +715,34 @@
       "working": true
     },
     "audits": []
+  },
+  {
+    "name": "paseto-ts",
+    "url": "https://github.com/auth70/paseto-ts",
+    "authors": [
+      {
+        "name": "auth70",
+        "homepage": "https://www.auth70.com"
+      }
+    ],
+    "comment": null,
+    "language": "TypeScript",
+    "features": {
+      "v1.local": false,
+      "v1.public": false,
+      "v2.local": false,
+      "v2.public": false,
+      "v3.local": false,
+      "v3.public": false,
+      "v4.local": true,
+      "v4.public": true,
+      "paserk": true
+    },
+    "extra": {
+      "test-vectors-exist": true,
+      "test-vectors-pass": true,
+      "working": true
+    },
+    "audits": []
   }
 ]
