@@ -391,8 +391,8 @@
       "v2.public": true,
       "v3.local": true,
       "v3.public": true,
-      "v4.local": false,
-      "v4.public": false
+      "v4.local": true,
+      "v4.public": true
     },
     "extra": {
       "test-vectors-exist": true,
