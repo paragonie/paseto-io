@@ -744,5 +744,34 @@
       "working": true
     },
     "audits": []
+  },
+  {
+    "name": "paseto-haskell",
+    "url": "https://github.com/intricate/paseto-haskell",
+    "authors": [
+      {
+        "name": "intricate",
+        "homepage": "https://github.com/intricate"
+      }
+    ],
+    "comment": null,
+    "language": "Haskell",
+    "features": {
+      "v1.local": false,
+      "v1.public": false,
+      "v2.local": false,
+      "v2.public": false,
+      "v3.local": true,
+      "v3.public": true,
+      "v4.local": true,
+      "v4.public": true,
+      "paserk": false
+    },
+    "extra": {
+      "test-vectors-exist": true,
+      "test-vectors-pass": true,
+      "working": true
+    },
+    "audits": []
   }
 ]
