@@ -297,8 +297,8 @@
         "homepage": "https://github.com/panva"
       }
     ],
-    "comment": null,
-    "language": "Node.js",
+    "comment": "Zero-dependency, tree-shakeable PASETO and PASERK for Web-interoperable runtimes, with composable operations, native CryptoKey support, and pluggable cryptographic backends across versions.",
+    "language": "JavaScript",
     "features": {
       "v1.local": true,
       "v1.public": true,
@@ -842,7 +842,7 @@
         "homepage": "https://github.com/Elalitareq"
       }
     ],
-    "comment": "Runtime-agnostic (Node, Deno, Bun, browsers, edge). Full PASERK. Maintained successor to panva/paseto.",
+    "comment": "Runtime-agnostic (Node, Deno, Bun, browsers, edge). Full PASERK.",
     "language": "TypeScript",
     "features": {
       "v1.local": false,
