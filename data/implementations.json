@@ -862,5 +862,33 @@
       "working": true
     },
     "audits": []
+  },
+  {
+    "name": "Gaseto",
+    "url": "https://github.com/atomfinger/gaseto",
+    "authors": [
+      {
+        "name": "John Mikael Lindbakk",
+        "homepage": "https://lindbakk.com"
+      }
+    ],
+    "language": "Gleam",
+    "features": {
+      "v1.local": false,
+      "v1.public": false,
+      "v2.local": false,
+      "v2.public": false,
+      "v3.local": true,
+      "v3.public": true,
+      "v4.local": true,
+      "v4.public": true,
+      "paserk": false
+    },
+    "extra": {
+      "test-vectors-exist": true,
+      "test-vectors-pass": true,
+      "working": true
+    },
+    "audits": []
   }
 ]
